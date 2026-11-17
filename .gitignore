@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.artifacts/
+.test-work/
+*.tgz
+*.tsbuildinfo
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
