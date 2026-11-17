@@ -51,7 +51,7 @@ registry, not local tarballs, overrides or workspace links.
 pnpm recorded release-age exceptions only for the exact newly released versions
 of `@silvermoon-work/ipfspawn`, `@silvermoon-work/task-engine` and
 `@silvermoon-work/task-protocol` at `0.2.1`, plus the pinned publish gate at
-`0.1.0-rc.4`. These entries do not disable supply-chain checks globally or cover
+`0.1.0`. These entries do not disable supply-chain checks globally or cover
 future versions.
 
 | Command              | Purpose                                               |
@@ -83,7 +83,7 @@ it excludes tests, development configuration and dependency directories.
 The [publish workflow](./.github/workflows/publish-npm.yaml) follows ipfsaw:
 [deliverable.yaml](./deliverable.yaml) declares the single npm package and
 `prepublishOnly` invokes the exact installed
-`@silvermoon-work/devtool.publish-gate@0.1.0-rc.4`.
+`@silvermoon-work/devtool.publish-gate@0.1.0`.
 
 - Only `ipfspawn@<version>` tag pushes enter the real publication path.
 - Manual workflow dispatch is always dry-run.

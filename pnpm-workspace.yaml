@@ -5,7 +5,7 @@ saveExact: true
 allowBuilds:
   esbuild: true
 minimumReleaseAgeExclude:
-  - "@silvermoon-work/devtool.publish-gate@0.1.0-rc.4"
+  - "@silvermoon-work/devtool.publish-gate@0.1.0"
   - "@silvermoon-work/ipfspawn@0.2.1"
   - "@silvermoon-work/task-engine@0.2.1"
   - "@silvermoon-work/task-protocol@0.2.1"
